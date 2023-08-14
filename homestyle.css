@@ -230,7 +230,7 @@ li a:hover {
 /* about end */
 
 /* text My Skill start */
-.text-skills {
+.text-ken {
     width: 100vw;
     height: 20vh;
     margin-top: 10%;
@@ -242,9 +242,28 @@ li a:hover {
     -webkit-animation: animation 5s infinite;
 }
 
-.txt-skills {
-    font-size: 8em;
+.txt-ken {
+    font-size: 7em;
     font-weight: bolder;
+    display: inline;
+}
+
+/* text My Skill end */
+
+/* text My Skill start */
+.text-skills {
+    width: 100vw;
+    height: 20vh;
+    margin-top: 10%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-skills {
+    font-size: 6em;
+    font-weight: bold;
     display: inline;
 
 
