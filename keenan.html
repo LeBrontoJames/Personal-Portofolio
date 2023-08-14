@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .hero2 {
+            height: 103vh;
+            width: 100%;
+            padding-bottom: 40px;
+            background: white;
+        }
+
+        .tv_skills {
+            color: black;
+            font-family: 'AT Arges';
+            font-size: 130px;
+            letter-spacing: 0px;
+            transition: letter-spacing 0.2s ease;
+            text-align: center;
+            padding-top: 30px;
+        }
+
+        .tv_skills:hover {
+            letter-spacing: 8px;
+        }
+
+        .skills_div {
+            height: 80.5%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .div_gd {
+            height: 90%;
+            width: 400px;
+            border: 3px solid;
+            border-radius: 5px;
+            padding: 15px 0px;
+        }
+
+        .div_design {
+            height: 10%;
+            width: 100%;
+        }
+
+        .title_gd {
+            text-align: center;
+        }
+
+        .div_figma {
+            height: 50%;
+            width: 50%;
+        }
+
+        .div_item_skills_design {
+            height: 90%;
+            width: 70%;
+            margin: 25px;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 60px;
+        }
+
+        .figma {
+            height: 87%;
+            width: 78px;
+            padding: 20px;
+            background: beige;
+        }
+
+        .persen_figma {
+            background: rgba(0, 0, 0, 0.564);
+            height: 5%;
+            width: 80px;
+            transition: height 0.3s ease, background 0.3s ease;
+        }
+
+        .persen_figma:hover {
+            height: 55.5%;
+            background: black;
+        }
+
+        .ai {
+            height: 87%;
+            width: 78px;
+            padding: 20px;
+            background: beige;
+        }
+
+        .persen_ai {
+            background: rgba(0, 0, 0, 0.564);
+            height: 5%;
+            width: 80px;
+            transition: height 0.3s ease, background 0.3s ease;
+        }
+
+        .persen_ai:hover {
+            height: 33.6%;
+            background: black;
+        }
+
+        .levels_dsgn {
+            height: 400px;
+            position: absolute;
+            left: 15px;
+            top: 680px;
+        }
+
+        .levels_video {
+            height: 400px;
+            position: absolute;
+            left: 990px;
+            top: 1468px;
+        }
+
+        .hero2_inside {
+            height: 100%;
+            width: 100%;
+            display: flex;
+        }
+
+        .skills_div_video_editing {
+            height: 80.5%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .pr {
+            height: 87%;
+            width: 78px;
+            padding: 20px;
+            background: beige;
+        }
+
+        .persen_pr {
+            background: rgba(0, 0, 0, 0.564);
+            height: 5%;
+            width: 80px;
+            transition: height 0.3s ease, background 0.3s ease;
+        }
+
+        .persen_pr:hover {
+            height: 33.5%;
+            background: black;
+        }
+
+        .ae {
+            height: 87%;
+            width: 78px;
+            padding: 20px;
+            background: beige;
+        }
+
+        .persen_ae {
+            background: rgba(0, 0, 0, 0.564);
+            height: 5%;
+            width: 80px;
+            transition: height 0.3s ease, background 0.3s ease;
+        }
+
+        .persen_ae:hover {
+            height: 12%;
+            background: black;
+        }
+
+        .div_cd {
+            height: 90%;
+            width: 500px;
+            border: 3px solid;
+            border-radius: 5px;
+            padding: 15px 0px;
+        }
+
+        .div_code {
+            height: 10%;
+            width: 100%;
+        }
+
+        .div_item_skills_code {
+            height: 90%;
+            width: 82%;
+            margin: 25px;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 45px;
+        }
+
+        .html {
+            height: 87%;
+            width: 78px;
+            padding: 20px;
+            background: beige;
+        }
+
+        .persen_html {
+            background: rgba(0, 0, 0, 0.564);
+            height: 5%;
+            width: 80px;
+            transition: height 0.3s ease, background 0.3s ease;
+        }
+
+        .persen_html:hover {
+            height: 30.5%;
+            background: black;
+        }
+
+        .css {
+            height: 87%;
+            width: 78px;
+            padding: 20px;
+            background: beige;
+        }
+
+        .persen_css {
+            background: rgba(0, 0, 0, 0.564);
+            height: 5%;
+            width: 80px;
+            transition: height 0.3s ease, background 0.3s ease;
+        }
+
+        .persen_css:hover {
+            height: 30.5%;
+            background: black;
+        }
+
+        .kotlin {
+            height: 87%;
+            width: 78px;
+            padding: 20px;
+            background: beige;
+        }
+
+        .persen_kotlin {
+            background: rgba(0, 0, 0, 0.564);
+            height: 5%;
+            width: 80px;
+            transition: height 0.3s ease, background 0.3s ease;
+        }
+
+        .persen_kotlin:hover {
+            height: 31%;
+            background: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero2">
+        <h1 class="tv_skills">MY SKILLS</h1>
+        <div class="hero2_inside">
+
+            <div class="skills_div">
+                <div class="div_gd">
+                    <div class="div_design">
+                        <h1 class="title_gd">GRAPHIC<br>DESIGN</h1>
+                    </div>
+                    <div class="div_item_skills_design">
+                        <img class="levels_dsgn" src="levels.png" alt="">
+                        <div class="figma">
+                            <img style="margin-left: -15px; padding-bottom: 15px;" src="Figma-logo.png" width="110px"
+                                alt="">
+                            <div class="persen_figma">
+                            </div>
+
+                        </div>
+                        <div class="ai">
+                            <img style="margin-left: -15px; padding-bottom: 0px; margin-top: -12.3px;"
+                                src="ai_logo.webp" width="110px" alt="">
+                            <div class="persen_ai">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills_div">
+                <div class="div_cd">
+                    <div class="div_code">
+                        <h1 class="title_gd">PROGRAMMING</h1>
+                    </div>
+                    <div class="div_item_skills_code">
+
+                        <div class="html">
+                            <img style="margin-left: -10px; padding-bottom: 15px;" src="html-logo.jpeg" width="100px"
+                                alt="">
+                            <div class="persen_html">
+                            </div>
+                        </div>
+
+                        <div class="css">
+                            <img style="margin-left: -13px; padding-bottom: 20px; margin-top: 8px;" src="css-logo.png" width="101px"
+                                alt="">
+                            <div class="persen_css">
+                            </div>
+                        </div>
+
+                        <div class="kotlin">
+                            <img style="margin-left: 3px; padding-bottom: 27px; margin-top: 17px;"
+                                src="kotlin-logo.png" width="68px" alt="">
+                            <div class="persen_kotlin">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills_div">
+                <div class="div_gd">
+                    <div class="div_design">
+                        <h1 class="title_gd">VIDEO<br>EDITING</h1>
+                    </div>
+                    <div class="div_item_skills_design">
+                        <div class="pr">
+                            <img style="margin-left: -7px; padding-bottom: 8px; margin-top: -5px;"
+                                src="premiere-pro.png" width="95px" alt="">
+                            <div class="persen_pr">
+                            </div>
+
+                        </div>
+                        <div class="ae">
+                            <img style="margin-left: -8px; padding-bottom: 20px; margin-top: 5px;"
+                                src="after-effect Background Removed.png" width="95px" alt="">
+                            <div class="persen_ae">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
