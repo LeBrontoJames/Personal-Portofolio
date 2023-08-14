@@ -233,7 +233,7 @@ li a:hover {
 .text-skills {
     width: 100vw;
     height: 20vh;
-    margin-top: 8%;
+    margin-top: 10%;
     background: white;
     display: flex;
     justify-content: center;
@@ -248,42 +248,6 @@ li a:hover {
     display: inline;
 
 
-}
-
-@keyframes animation {
-    0% {
-        transform: translateX(-100%);
-        -webkit-transform: translateX(-100%);
-        -moz-transform: translateX(-100%);
-        -ms-transform: translateX(-100%);
-        -o-transform: translateX(-100%);
-    }
-
-    100% {
-        transform: translateX(100%);
-        -webkit-transform: translateX(100%);
-        -moz-transform: translateX(100%);
-        -ms-transform: translateX(100%);
-        -o-transform: translateX(100%);
-    }
-}
-
-@keyframes goin {
-    0% {
-        transform: translateX(-50%);
-        -webkit-transform: translateX(-50%);
-        -moz-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        -o-transform: translateX(-50%);
-    }
-
-    100% {
-        transform: translateX(5%);
-        -webkit-transform: translateX(5%);
-        -moz-transform: translateX(5%);
-        -ms-transform: translateX(5%);
-        -o-transform: translateX(5%);
-    }
 }
 
 /* text My Skill end */
@@ -301,6 +265,7 @@ li a:hover {
 }
 
 .card {
+    margin-top: 5%;
     position: relative;
     text-align: center;
     padding: 45px 60px;
@@ -341,6 +306,7 @@ li a:hover {
 .project {
     height: 100vh;
     width: 100vw;
+    margin-top: 10%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -348,4 +314,74 @@ li a:hover {
     flex-wrap: wrap;
     gap: 30px;
 }
+
+.title-project {
+    width: 100vw;
+    height: 20vh;
+    margin-top: 8%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-pro {
+    font-size: 10em;
+    font-weight: bolder;
+    display: inline;
+}
+
+.project-card {
+    position: relative;
+    text-align: center;
+    display: flex;
+    padding: 45px 60px;
+}
+
+.pro-img img{
+    width: 80%;
+    height: 80%;
+}
+
+.pro-text a {
+    color: black;
+}
 /* project end */
+
+/* animation start */
+@keyframes animation {
+    0% {
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
+    }
+}
+
+@keyframes goin {
+    0% {
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(5%);
+        -webkit-transform: translateX(5%);
+        -moz-transform: translateX(5%);
+        -ms-transform: translateX(5%);
+        -o-transform: translateX(5%);
+    }
+}
+/* animation end */
