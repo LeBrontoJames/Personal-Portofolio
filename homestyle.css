@@ -346,6 +346,18 @@ li a:hover {
 .pro-text a {
     color: black;
 }
+
+.pro-card {
+    transition: all, 0.3s, ease-in, 0s;
+}
+
+.pro-card:hover {
+    transform:translateY(-20px);
+    -webkit-transform:translateY(-20px);
+    -moz-transform:translateY(-20px);
+    -ms-transform:translateY(-20px);
+    -o-transform:translateY(-20px);
+}
 /* project end */
 
 /* animation start */
