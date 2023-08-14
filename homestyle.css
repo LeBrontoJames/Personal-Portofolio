@@ -347,6 +347,10 @@ li a:hover {
     color: black;
 }
 
+.pro-text {
+    margin-top: 20px;
+}
+
 .pro-card {
     transition: all, 0.3s, ease-in, 0s;
 }
