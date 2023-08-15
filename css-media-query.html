@@ -18,7 +18,7 @@
             background: #0088cc;
         }
 
-        .card-area {
+        .hero, .content {
             display: grid;
             grid-template-columns: auto auto;
         }
@@ -29,6 +29,11 @@
             margin: 10px;
         }
 
+        .card img {
+            width: 50%;
+            height: 80%
+        }
+
         @media screen and (max-width: 767px) {
             .container {
                 background: #00ff00;
@@ -37,6 +42,15 @@
             .card-area {
                 grid-template-columns: auto;
             }
+
+            .hero {
+                display: flex;
+                grid: reverse;
+            }
+
+            .card img {
+                display: none;
+            }
         }
     </style>
 </head>
@@ -44,24 +58,30 @@
 <body>
     <div class="container">
         <div class="card-area">
-            <div class="card">
-                <h1>Card1</h1>
+            <div class="hero">
+                <div class="card">
+                    <h1>Keenan Abigail</h1>
+                </div>
+                <div class="card">
+                    <img src="/Assets/bigface-hero.png" alt="image-profile">
+                </div>
             </div>
-            <div class="card">
-                <h1>Card1</h1>
+
+            <div class="content">
+                <div class="card">
+                    <h1>Card1</h1>
+                </div>
+                <div class="card">
+                    <h1>Card3</h1>
+                </div>
+                <div class="card">
+                    <h1>Card2</h1>
+                </div>
+                <div class="card">
+                    <h1>Card4</h1>
+                </div>
             </div>
-            <div class="card">
-                <h1>Card1</h1>
-            </div>
-            <div class="card">
-                <h1>Card1</h1>
-            </div>
-            <div class="card">
-                <h1>Card1</h1>
-            </div>
-            <div class="card">
-                <h1>Card1</h1>
-            </div>
+
 
         </div>
     </div>
